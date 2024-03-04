@@ -1,0 +1,58 @@
+.form
+{
+    display: flex;
+    position: relative; 
+    flex-direction: row; 
+    width: 50%; 
+    height: 100%; 
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;  
+    font-size: large;
+}
+
+.form-section
+{
+    display: flex; 
+    flex-direction: column;
+    background: #F6F1F1;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%; 
+    height: 5rem; 
+    gap: 1.5rem; 
+    padding: 1.2rem;
+}
+
+.form-section input
+{
+    height: 1.5rem; 
+}
+
+.form-button-flex-container
+{
+    display: flex; 
+    width: 100%; 
+    justify-content: center;
+}
+
+.form-button
+{
+    margin-top: 1.4rem; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 6.5rem; 
+    height: 3.5rem; 
+    font-size: 13pt;
+    cursor: pointer;
+    background: #F6F1F1;
+}
+
+ form, form input, form label
+ {
+    width: 100%; 
+ }
+.form-button:hover
+{
+    scale: 1.3; 
+}

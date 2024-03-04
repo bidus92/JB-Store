@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/css/forms.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="header-nav-list">
+            <div class="header-item">
+                <a href="/" class=<%=path==='/' ? 'active' : ''%> >Store</a>
+            </div>
+            <div class="header-item">
+                <a href="/products" class=<%=path==='/products' ? 'active' : ''%>>Products</a>
+            </div>
+            <div class="header-item">
+                <a href="/cart" class=<%=path==='/cart' ? 'active' : ''%>>Cart</a>
+            </div>
+            <div class="header-item">
+                <a href="/orders" class=<%=path==='/orders' ? 'active' : ''%>>Orders</a>
+            </div>
+            <div class="header-item">
+                <a href="/admin/products" class=<%=path==='/admin/products' ? 'active' : ''%>>Admin Products</a>
+            </div>
+            <div class="header-item">
+                <a href="/login" class=<%=path==='/login' ? 'active' : ''%>>Login</a>
+            </div>
+            <div class="header-item">
+                <a href="/signup" class=<%=path==='/signup' ? 'active' : ''%>>Signup</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="page">
+
